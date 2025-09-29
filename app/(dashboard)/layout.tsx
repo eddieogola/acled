@@ -16,11 +16,6 @@ const dashboardRoutes = [
     icon: <House />,
   },
   {
-    name: "Analytics",
-    path: "/analytics",
-    icon: <ChartNoAxesCombined />,
-  },
-  {
     name: "Reports",
     path: "/reports",
     icon: <NotebookText />,

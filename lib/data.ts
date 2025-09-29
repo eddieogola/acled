@@ -357,3 +357,99 @@ export const mediaTypeData = [
   { name: "TV", negative: 50, neutral: 40, positive: 10 },
   { name: "Local", negative: 35, neutral: 35, positive: 30 },
 ];
+
+export const riskData = [
+  {
+    region: "Eastern Africa",
+    riskScore: 85,
+    incidents: 124,
+    fatalities: 542,
+    type: "Armed Conflict",
+  },
+  {
+    region: "Western Africa",
+    riskScore: 78,
+    incidents: 98,
+    fatalities: 387,
+    type: "Civil Unrest",
+  },
+  {
+    region: "Northern Africa",
+    riskScore: 72,
+    incidents: 76,
+    fatalities: 291,
+    type: "Terrorism",
+  },
+  {
+    region: "Central Africa",
+    riskScore: 68,
+    incidents: 67,
+    fatalities: 258,
+    type: "Political Violence",
+  },
+  {
+    region: "Southern Africa",
+    riskScore: 45,
+    incidents: 42,
+    fatalities: 96,
+    type: "Protests",
+  },
+];
+
+export const timeSeriesData = [
+  { month: "Jan", incidents: 45 },
+  { month: "Feb", incidents: 52 },
+  { month: "Mar", incidents: 49 },
+  { month: "Apr", incidents: 63 },
+  { month: "May", incidents: 58 },
+  { month: "Jun", incidents: 72 },
+  { month: "Jul", incidents: 85 },
+  { month: "Aug", incidents: 76 },
+  { month: "Sep", incidents: 68 },
+];
+
+export const incidentTypeData = [
+  { name: "Armed Conflict", value: 35 },
+  { name: "Protests", value: 25 },
+  { name: "Terrorism", value: 20 },
+  { name: "Civil Unrest", value: 15 },
+  { name: "Other", value: 5 },
+];
+
+export const alertsData = [
+  {
+    id: 1,
+    region: "Eastern Africa",
+    severity: "High",
+    description: "Armed group movement detected near border",
+    date: "2023-07-15",
+  },
+  {
+    id: 2,
+    region: "Western Africa",
+    severity: "Critical",
+    description: "Terrorist attack on government facility",
+    date: "2023-07-14",
+  },
+  {
+    id: 3,
+    region: "Northern Africa",
+    severity: "Medium",
+    description: "Civil unrest reported in capital city",
+    date: "2023-07-13",
+  },
+  {
+    id: 4,
+    region: "Central Africa",
+    severity: "High",
+    description: "Increase in militia activity",
+    date: "2023-07-12",
+  },
+  {
+    id: 5,
+    region: "Southern Africa",
+    severity: "Low",
+    description: "Peaceful protest scheduled",
+    date: "2023-07-11",
+  },
+];
