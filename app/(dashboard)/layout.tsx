@@ -6,6 +6,7 @@ import {
   ShieldAlert,
   SatelliteDish,
   Earth,
+  Siren,
 } from "lucide-react";
 
 const dashboardRoutes = [
@@ -32,7 +33,7 @@ const dashboardRoutes = [
   {
     name: "Risk Intelligence",
     path: "risk",
-    icon: <ShieldAlert />,
+    icon: <Siren />,
   },
   {
     name: "Media Intelligence",

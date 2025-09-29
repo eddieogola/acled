@@ -1,1 +1,1 @@
-export { default } from "@/ui/dashboard";
+export { default } from "@/ui/dashboard/Home";
