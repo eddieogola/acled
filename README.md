@@ -1,3 +1,5 @@
+Find the github repo [here](https://github.com/eddieogola/acled).
+
 # ACLED Dashboard
 
 A risk intelligence dashboard application for monitoring conflict zones and security incidents.
@@ -99,7 +101,3 @@ docker compose up
 ```bash
 docker compose down
 ```
-
-## License
-
-[Include your license information here]
