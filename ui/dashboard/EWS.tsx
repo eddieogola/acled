@@ -32,7 +32,7 @@ import {
   ChartLegend,
   ChartLegendContent,
 } from "@/components/ui/chart";
-import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from "recharts";
+import { BarChart, Bar, XAxis, YAxis } from "recharts";
 import {
   Calendar,
   Filter,
@@ -40,98 +40,7 @@ import {
   ArrowUpDown,
   FileText,
 } from "lucide-react";
-
-// Sample data for demonstration
-const riskLevels = [
-  {
-    id: 1,
-    country: "South Sudan",
-    risk: "Very High",
-    score: 9.8,
-    trend: "up",
-    lastUpdate: "2023-10-15",
-  },
-  {
-    id: 2,
-    country: "Somalia",
-    risk: "High",
-    score: 8.5,
-    trend: "up",
-    lastUpdate: "2023-10-14",
-  },
-  {
-    id: 3,
-    country: "DRC",
-    risk: "High",
-    score: 8.2,
-    trend: "stable",
-    lastUpdate: "2023-10-10",
-  },
-  {
-    id: 4,
-    country: "Yemen",
-    risk: "High",
-    score: 8.0,
-    trend: "down",
-    lastUpdate: "2023-10-09",
-  },
-  {
-    id: 5,
-    country: "Ethiopia",
-    risk: "Medium",
-    score: 7.5,
-    trend: "up",
-    lastUpdate: "2023-10-12",
-  },
-  {
-    id: 6,
-    country: "Myanmar",
-    risk: "Medium",
-    score: 7.2,
-    trend: "stable",
-    lastUpdate: "2023-10-08",
-  },
-  {
-    id: 7,
-    country: "Nigeria",
-    risk: "Medium",
-    score: 6.8,
-    trend: "down",
-    lastUpdate: "2023-10-11",
-  },
-  {
-    id: 8,
-    country: "Mali",
-    risk: "Medium",
-    score: 6.5,
-    trend: "up",
-    lastUpdate: "2023-10-13",
-  },
-  {
-    id: 9,
-    country: "Burkina Faso",
-    risk: "Medium",
-    score: 6.3,
-    trend: "stable",
-    lastUpdate: "2023-10-07",
-  },
-  {
-    id: 10,
-    country: "Ukraine",
-    risk: "Low",
-    score: 5.5,
-    trend: "down",
-    lastUpdate: "2023-10-06",
-  },
-];
-
-const riskFactorData = [
-  { name: "Political", veryHigh: 8, high: 6, medium: 4, low: 2 },
-  { name: "Economic", veryHigh: 9, high: 7, medium: 5, low: 1 },
-  { name: "Social", veryHigh: 7, high: 5, medium: 3, low: 2 },
-  { name: "Environmental", veryHigh: 6, high: 4, medium: 2, low: 1 },
-  { name: "Security", veryHigh: 10, high: 8, medium: 4, low: 2 },
-];
+import { riskFactorData, riskLevels } from "@/lib/data";
 
 const chartConfig = {
   veryHigh: { label: "Very High", color: "#ef4444" },
